@@ -1,9 +1,6 @@
-# Navigate to your project folder
-cd "E:\zeetron\MovieRecommender"
 
-# Create README.md (or overwrite if it exists)
-echo "# MovieRecommender – ML-Based Movie Recommendation System
-## 📖 Overview
+MovieRecommender – ML-Based Movie Recommendation System
+## Overview
 **MovieRecommender** is a machine learning project that provides personalized movie recommendations based on user-selected movies.  
 It uses **content-based filtering** with **cosine similarity** on movie features such as genres, tags, and descriptions.
 
@@ -14,7 +11,7 @@ This project includes:
 - Saved model/data as .pkl files for easy reuse  
 - Interactive user input interface
 
-## 🗂 Project Structure
+##  Project Structure
 
 MovieRecommender/
 │── notebooks/
@@ -27,7 +24,7 @@ MovieRecommender/
 │── requirements.txt
 │── README.md
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -38,7 +35,7 @@ cd MovieRecommender
 
 pip install -r requirements.txt
 
-## 🛠 How to Use
+##  How to Use
 
 ### Using Python Console:
 
@@ -64,14 +61,14 @@ with open('models/movie_rec_model.pkl', 'rb') as f:
 with open('data/processed_movies.pkl', 'rb') as f:
     df = pickle.load(f)
 
-## 💡 Features
+##  Features
 
 - Content-based movie recommendations  
 - Top-N similar movies for any selected movie  
 - Interactive user input for recommendations  
 - Saves trained model and processed dataset for reuse  
 
-## 🧰 Tools & Libraries
+##  Tools & Libraries
 
 - Python 3.x  
 - pandas  
@@ -80,7 +77,7 @@ with open('data/processed_movies.pkl', 'rb') as f:
 - seaborn  
 - ast (standard library)  
 
-## 🔗 Future Improvements
+##  Future Improvements
 
 - Add GUI or web app for interactive recommendations  
 - Include collaborative filtering for improved personalization  
